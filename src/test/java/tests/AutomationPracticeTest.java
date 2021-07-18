@@ -7,7 +7,24 @@ public class AutomationPracticeTest extends BaseTest{
     void signUp() {
         loginPage.open();
         loginPage.sigiIn();
-        //loginPage.
+        loginPage.authentication();
+        //loginPage.registration();
 
+    }
+
+    @Test
+    void logInAlredyRegistered() {
+        loginPage.open();
+        loginPage.sigiIn();
+        loginPage.alredyregistered();
+
+    }
+
+    @Test
+    void logInRegisterForm() {
+        loginPage.open();
+        loginPage.sigiIn();
+        loginPage.authentication();
+        loginPage.createanaccauntform();
     }
 }
