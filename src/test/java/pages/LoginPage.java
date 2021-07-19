@@ -9,8 +9,9 @@ import java.util.List;
 import static org.testng.Assert.assertEquals;
 
 public class LoginPage extends BasePage {
-    //public static final By USERNAME_INPUT = By.id("user-name");
-    //public static final By PASSWORD_INPUT = By.id("password");
+    public static final By CUSTUMERFIRSTNAME_INPUT = By.id("customer_firstname");
+    public static final By CUSTUMERLASTNAME_INPUT = By.id("customer_lastname");
+    public static final By CUSTUMERPASSWORD_INPUT = By.id("passwd");
     public static final By LOGIN_BUTTON = By.linkText("Sign in");
     public static final By EMAILCRATION_BUTTON = By.id("email_create");
     public static final By CREATEACCAUNT_BUTTON = By.id("SubmitCreate");
